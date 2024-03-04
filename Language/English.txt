@@ -1,0 +1,126 @@
+The program is finished.
+Hello!
+1. Registration.
+2. Authorization.
+3. Exit.
+1. Profile.
+2. Create a new drink.
+3. Make an order.
+4. Exit.
+Name: 
+Surname: 
+Password: 
+Birth year: 
+Unable to create new user file.
+No such user found. Try again.
+Wrong password!
+Can't open the user file.
+Can't open the product file.
+Can't open the drink file.
+1. Settings.
+2. Standard drinks.
+3. My drinks.
+4. Order history.
+5. Back.
+Name
+Surname
+Birth year
+Account balance
+1. Name.
+2. Surname.
+3. Date of birth.
+4. Password.
+5. Delete order history.
+6. Remove my drinks.
+7. Back.
+New name: 
+New surname: 
+New date of birth: 
+Old Password: 
+New password: 
+Select the item you want to change: 
+Order history is empty.
+Are you shure you want to delete order history?
+1. Delete.
+2. Back.
+Order history has been deleted.
+You have not created any drink yet.
+1. Remove all my drinks.
+2. Remove a specific drink.
+1. Delete by name.
+2. Delete by number.
+Are you shure you want to remove all your drinks?
+All your drinks have been deleted.
+Enter the drink name: 
+Enter the drink number: 
+Are you shure you want to remove this drink?
+Drink has been deleted.
+1. Create a new drink.
+2. Back.
+1. Sort.
+2. Delete my drinks.
+3. Create a new drink.
+4. Order.
+5. Back.
+Enter number of the drink you want to order: 
+Insufficient funds in the account.
+ is getting ready for you.
+Wait.
+Number
+Name
+Ingredients
+Volume
+Price
+Order history is empty.
+1. Sort.
+2. Delete order history.
+3. Order.
+4. Back.
+1. My drinks.
+2. Order history.
+3. Standard drinks.
+What drinks do you want to order?
+1. Sort.
+2. Order.
+3. Back.
+1. Change the name.
+2. Add ingredient.
+3. Delete the ingredient.
+4. Change volume of the ingredient.
+5. Order.
+6. Back.
+New name: 
+The glass is full.
+Enter the volume of the ingredient: 
+Invalid value.
+The glass is empty.
+Ingredient has been deleted.
+Enter new ingredient volume: 
+1. Yes.
+2. No.
+Save the drink?
+Enter name of your drink before ordering.
+1. Sort.
+2. Choose.
+Add ingredient: 
+Remove ingredient: 
+Change volume of the ingredient: 
+1. By number.
+2. By name.
+Enter the number: 
+Enter product name: 
+We don't have this product.
+Number
+Name
+Price
+Ingredients
+Volume
+1. By name.
+2. By price.
+1. Ascending.
+2. Descending.
+rub.
+Are you shure in ordering this drink?
+1. Order.
+2. Back.
+This user has already exists.

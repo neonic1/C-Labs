@@ -1,0 +1,42 @@
+﻿  Drink.cpp
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(22): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(33): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(36): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(52): warning C4018: '<=': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(68): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(81): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(90): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(101): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\drink.cpp(117): warning C4018: '<': signed/unsigned mismatch
+  Exceptions.cpp
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\exceptions.cpp(42): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\exceptions.cpp(75): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\exceptions.cpp(114): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Product.cpp
+  User.cpp
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(92): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(96): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(99): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(109): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(140): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(182): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(208): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(218): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(394): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(473): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(580): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(637): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(768): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(871): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(898): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(958): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(1059): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(1112): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(1159): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(1219): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(1253): warning C4018: '<': signed/unsigned mismatch
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(1291): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+d:\универ\3_семестр\кпияп\мой курсач\kursach\kursach\user.cpp(447): warning C4715: 'User::delete_my_drinks': not all control paths return a value
+  kursach.vcxproj -> D:\универ\3_семестр\КПиЯП\мой курсач\kursach\Debug\kursach.exe
