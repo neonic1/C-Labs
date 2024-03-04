@@ -1,1 +1,1 @@
-Two of my old couse works. that was made during my univercity studies. Kind of electronic system for ordering drinks in a bar, with visual representation made both in ASCII symbols and with help of Qt framework.
+Two of my old couse works, that were made during my univercity studies. Kind of electronic system for ordering drinks in a bar, with visual representation made both in ASCII symbols and with help of Qt framework.
