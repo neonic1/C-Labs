@@ -1,0 +1,14 @@
+установить денвер
+проверить локалхост
+загрузить бд
+установить mysql
+полностью выполнить установку
+сменить порт на 3307
+https://github.com/thecodemonkey86/qt_mysql_driver/releases
+соответственно версии qt скачать соответствующие dll файлы
+закинуть оба файла в путь:
+C:\Qt\5.14.1\msvc2017_64\plugins\sqldrivers
+скопировать из
+C:\Program Files\MySQL\MySQL Server 8.0\lib
+файл libmysql.dll
+в C:\Windows

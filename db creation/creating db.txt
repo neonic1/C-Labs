@@ -1,0 +1,190 @@
+create table basicingredients (
+basicIngredient_id SMALLINT UNSIGNED AUTO_INCREMENT,
+name VARCHAR(30) NOT NULL,
+price DECIMAL(8,2) NOT NULL,
+kind TINYINT NOT NULL,
+PRIMARY KEY (basicIngredient_id)
+);
+
+INSERT INTO basicingredients (name, price, kind) VALUES ('rum', '2.31', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('martini', '0.9', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('vodka', '0.3', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('sake', '0.4', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('gin', '0.54', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('white wine', '0.7', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('red wine', '0.8', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('rose wine', '0.75', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('brandy', '1.2', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('cognac', '0.85', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('white rum', '1.54', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('whiskey', '1.6', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('champagne', '1.43', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('carribbean rum', '2.1', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('cabernet Sauvignon', '1.2', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('calvados', '1.3', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('ale', '0.3', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('beefeater', '0.7', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('dry gin', '0.7', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Irish whiskey', '1.0', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Irish Cream', '1.1', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('baileys', '1.11', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('grape vodka', '0.43', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('tequila', '1.6', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('mead', '1.0', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('hawthorn tincture', '0.2', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Coca-Cola', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Fanta', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Sprite', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('kvass', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('green tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('red tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('black tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('raspberry tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('earlgrey', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('white tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('melissa tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('jasmine tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('cherry tea', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('frappe', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('latte', '0.15', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('espresso', '0.14', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('mokko', '0.13', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('americano', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('makkiato', '0.15', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('irish coffee', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('strawberry compote', '0.3', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('lemonade', '0.3', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('mint leaves', '0.05', '4');
+INSERT INTO basicingredients (name, price, kind) VALUES ('sugar', '0.05', '4');
+INSERT INTO basicingredients (name, price, kind) VALUES ('lemon', '0.05', '4');
+INSERT INTO basicingredients (name, price, kind) VALUES ('lime', '0.05', '4');
+INSERT INTO basicingredients (name, price, kind) VALUES ('peach liqueur', '1.1', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('orange juice', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('apple juice', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('tomato juice', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('banana juice', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('cranberry juice', '0.1', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Ice', '0.01', '3');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Tabasco', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Pepper', '0.2', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('pineapple juice', '0.3', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('cream', '0.3', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Cream of Coconut syrup', '0.35', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Blue Curacao liqueur', '0.51', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('liqueur De Kuyper Triple Sec', '0.51', '2');
+INSERT INTO basicingredients (name, price, kind) VALUES ('vodka Finlandia Redberry', '1.2', '1');
+INSERT INTO basicingredients (name, price, kind) VALUES ('Cointreau liqueur', '1.15', '1');
+
+
+create table customers (
+customer_id SMALLINT UNSIGNED AUTO_INCREMENT,
+login VARCHAR(30) NOT NULL,
+name VARCHAR(30) NOT NULL,
+surname VARCHAR(30) NOT NULL,
+password SMALLINT(4) NOT NULL,
+birthYear SMALLINT(4) NOT NULL,
+cash DECIMAL(8,2) NOT NULL,
+PRIMARY KEY (customer_id)
+);
+
+create table drinks (
+drink_id SMALLINT UNSIGNED AUTO_INCREMENT,
+type_id TINYINT NOT NULL,
+customer_id SMALLINT UNSIGNED NULL,
+name VARCHAR(30) NOT NULL,
+PRIMARY KEY (drink_id),
+FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
+);
+
+
+create table drinkingredients (
+drinkIngredient_id SMALLINT UNSIGNED AUTO_INCREMENT,
+drink_id SMALLINT UNSIGNED NOT NULL,
+basicIngredient_id SMALLINT UNSIGNED NOT NULL,
+volume TINYINT NOT NULL,
+PRIMARY KEY (drinkIngredient_id),
+FOREIGN KEY (drink_id) REFERENCES drinks (drink_id),
+FOREIGN KEY (basicIngredient_id) REFERENCES basicingredients (basicIngredient_id)
+);
+
+
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Coca-Cola');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'mojito');
+INSERT INTO drinks (type_id, name) VALUES ('1', '*** on the beach');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Long Island Ice Tea');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Cuba Libre');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Bloody Mary');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Pina Colada');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Blue Lagoon');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Margarita');
+INSERT INTO drinks (type_id, name) VALUES ('1', 'Cosmopolitan');
+
+
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('1', '27', '9');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('1', '51', '1');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('2', '11', '4');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('2', '48', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('2', '51', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('2', '52', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('2', '50', '1');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('3', '3', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('3', '54', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('3', '53', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('3', '58', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('3', '59', '1');
+
+
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('4', '11', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('4', '5', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('4', '24', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('4', '3', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('4', '52', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('4', '27', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('4', '59', '1');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('5', '1', '5');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('5', '27', '4');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('5', '52', '1');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('6', '3', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('6', '48', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('6', '56', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('6', '60', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('6', '61', '1');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('7', '11', '4');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('7', '62', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('7', '63', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('7', '64', '1');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('8', '3', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('8', '65', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('8', '48', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('8', '29', '2');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('9', '24', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('9', '66', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('9', '52', '1');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('9', '48', '3');
+
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('10', '67', '4');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('10', '68', '2');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('10', '58', '3');
+INSERT INTO drinkingredients (drink_id, basicIngredient_id, volume) VALUES ('10', '52', '1');
+
+
+
+
+
+
+
+
+
+
+
+
+
